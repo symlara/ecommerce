@@ -8,6 +8,10 @@
   opacity: 1;
   transition: opacity 100ms linear;
   visibility: visible;
+ 
+  a {
+    color: var(--color-base-950);
+  }
 
   > * {
     text-decoration: none;

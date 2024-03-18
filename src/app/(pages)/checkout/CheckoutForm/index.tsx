@@ -94,7 +94,7 @@ export const CheckoutForm: React.FC<{}> = () => {
     },
     [stripe, elements, router, cart, cartTotal],
   )
-
+// stripe checkout test card: 4242 4242 4242 4242
   return (
     <form onSubmit={handleSubmit} className={classes.form}>
       {error && <Message error={error} />}

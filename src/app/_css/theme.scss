@@ -103,16 +103,16 @@
   h6 a {
     color: var(--theme-elevation-750);
 
-    &:hover {
-      color: var(--theme-elevation-800);
-    }
+    // &:hover {
+    //   color: var(--theme-elevation-800);
+    // }
 
     &:visited {
       color: var(--theme-elevation-750);
 
-      &:hover {
-        color: var(--theme-elevation-800);
-      }
+      // &:hover {
+      //   color: var(--theme-elevation-800);
+      // }
     }
   }
 }

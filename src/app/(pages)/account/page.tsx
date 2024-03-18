@@ -12,7 +12,7 @@ import { mergeOpenGraph } from '../../_utilities/mergeOpenGraph'
 import AccountForm from './AccountForm'
 
 import classes from './index.module.scss'
-
+//UPDATE THIS PAGE WITH AWESOMENESS CHECK GITHUB IF NEED BE
 export default async function Account() {
   const { user } = await getMeUser({
     nullUserRedirect: `/login?error=${encodeURIComponent(
