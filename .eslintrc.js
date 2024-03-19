@@ -16,4 +16,6 @@ module.exports = {
     sourceType: 'module',
     ecmaVersion: 'latest',
   },
+
+  'eslint.validate': ['json', { language: 'typescript', autoFix: true }],
 }
