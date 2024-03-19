@@ -42,7 +42,7 @@ export const hero: Field = {
     richText({
       admin: {
         elements: ['h1', largeBody, label, 'link'],
-      leaves: [],
+        leaves: [],
       },
     }),
     linkGroup({
